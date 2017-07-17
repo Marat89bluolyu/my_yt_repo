@@ -1,0 +1,51 @@
+
+/* ====== */
+/* Global */
+/* ====== */
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+
+
+/* ========= */
+/* Interface */
+/* ========= */
+
+.filter-wrapper {
+  display: none;
+}
+
+
+
+.results li {
+  padding: 20px 0;
+  overflow: hidden;
+}
+
+.results li > * {
+  float: left;
+}
+
+.results img {
+  width: 100px;
+  margin-right: 30px;
+}
+
+
+
+.pagination {
+  overflow: hidden;
+}
+
+.pagination li {
+  float: left;
+  margin-right: 10px;
+}
